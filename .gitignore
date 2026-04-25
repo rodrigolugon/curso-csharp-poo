@@ -1,0 +1,20 @@
+### Pastas de Compilação (Obrigatório)
+bin/
+obj/
+
+### Configurações de IDE e Editor (Obrigatório)
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.doccache
+
+### Arquivos de log e temporários do Windows
+*.log
+Thumbs.db
+desktop.ini
+
+### Publicação e Pacotes
+[Pp]ublish/
+/nupkg
