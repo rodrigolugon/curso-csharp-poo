@@ -15,8 +15,7 @@ namespace Aula03_ExercicioProduto
             Console.Write("Quantidade no estoque: ");
             produto1.Quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine("Dados do produto: ");
-
+            Console.WriteLine("Dados do produto " + produto1);
         }
     }
 }
