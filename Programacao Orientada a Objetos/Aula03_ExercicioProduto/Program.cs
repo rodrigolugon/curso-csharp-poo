@@ -15,7 +15,18 @@ namespace Aula03_ExercicioProduto
             Console.Write("Quantidade no estoque: ");
             produto1.Quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine("Dados do produto " + produto1);
+            
+            Console.WriteLine("\nDados do produto \n" + produto1);
+
+            Console.Write("Digite o numero de produtos a ser adicionado ao estoque: ");
+            int qte = int.Parse(Console.ReadLine());
+            produto1.AdicionarProdutos(qte);
+            Console.WriteLine("Dados atualizados: " + produto1);
+
+            Console.Write("Digite o numero de produtos a ser removido do estoque: ");
+            qte = int.Parse(Console.ReadLine());
+            produto1.RemoverProdutos(qte);
+            Console.WriteLine("Dados atualizados: " + produto1);
         }
     }
 }
